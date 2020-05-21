@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Corona</string>
+    <string name="toast_notification_created">תזכורת יומית נוצרה</string>
+    <string name="toast_notification_canceled">תזכורת בוטלה</string>
+    <string name="daily_reminder_setup">הגדרת תזכורת יומית</string>
+    <string name="daily_reminder">תזכורת יומית</string>
+    <string name="create_notification">יצירת התראה</string>
+    <string name="delete_notification">ביטול התראה</string>
+    <string name="notification_message1">הגיע הזמן</string>
+    <string name="notification_message2">לעידכון קורונה יומי</string>
+    <string name="share">שטף האפליקציה</string>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/daily_reminder"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="@android:drawable/btn_default"
+        android:drawableLeft="@android:drawable/ic_lock_idle_alarm"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:padding="5dp"
+        android:text="@string/create_notification"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="@android:drawable/btn_default"
+        android:drawableLeft="@android:drawable/ic_delete"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:padding="5dp"
+        android:text="@string/delete_notification"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/sharebtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="@android:drawable/btn_default"
+        android:drawableLeft="@android:drawable/ic_menu_share"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:padding="5dp"
+        android:text="@string/share"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+</LinearLayout>

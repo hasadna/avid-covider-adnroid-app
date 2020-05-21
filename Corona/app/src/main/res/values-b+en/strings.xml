@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Corona</string>
+    <string name="toast_notification_created">notification created successfully</string>
+    <string name="toast_notification_canceled">notification canceled</string>
+    <string name="daily_reminder_setup">daily reminder setup</string>
+    <string name="daily_reminder">daily reminder</string>
+    <string name="create_notification">create notification</string>
+    <string name="delete_notification">delete notification</string>
+    <string name="notification_message1">Time for</string>
+    <string name="notification_message2">daily corona update</string>
+    <string name="share">share</string>
+
+</resources>
