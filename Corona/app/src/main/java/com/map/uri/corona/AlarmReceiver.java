@@ -30,6 +30,7 @@ public class AlarmReceiver extends BroadcastReceiver {
             int NOTIFICATION_ID = 100;
 
             Intent notificationIntent = new Intent(context, MainActivity.class);
+            notificationIntent.putExtra("from_notification",true);
             PendingIntent contentIntent = PendingIntent.getActivity(context,
                     0, notificationIntent,
                     PendingIntent.FLAG_CANCEL_CURRENT);
