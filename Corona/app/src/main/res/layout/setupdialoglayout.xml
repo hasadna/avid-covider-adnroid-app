@@ -1,63 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#ff0000"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:gravity="center"
-        android:padding="5dp"
-        android:text="@string/daily_reminder"
-        android:textSize="24sp"
-        android:textColor="#000"
-        android:textStyle="bold" />
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/addBtn"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_margin="5dp"
-        android:background="@android:drawable/btn_default"
-        android:drawableLeft="@android:drawable/ic_lock_idle_alarm"
-        android:drawablePadding="6dp"
-        android:gravity="left|center"
-        android:padding="5dp"
-        android:text="@string/create_notification"
-        android:textColor="#000"
-        android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/daily_reminder"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/deleteBtn"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_margin="5dp"
-        android:background="@android:drawable/btn_default"
-        android:drawableLeft="@android:drawable/ic_delete"
-        android:drawablePadding="6dp"
-        android:gravity="left|center"
-        android:padding="5dp"
-        android:text="@string/delete_notification"
-        android:textColor="#000"
-        android:textStyle="bold" />
+        <Button
+            android:id="@+id/addBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@android:drawable/btn_default"
+            android:drawableLeft="@android:drawable/ic_lock_idle_alarm"
+            android:drawablePadding="6dp"
+            android:gravity="left|center"
+            android:padding="5dp"
+            android:text="@string/create_notification"
+            android:textColor="#000"
+            android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/sharebtn"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_margin="5dp"
-        android:background="@android:drawable/btn_default"
-        android:drawableLeft="@android:drawable/ic_menu_share"
-        android:drawablePadding="6dp"
-        android:gravity="left|center"
-        android:padding="5dp"
-        android:text="@string/share"
-        android:textColor="#000"
-        android:textStyle="bold" />
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@android:drawable/btn_default"
+            android:drawableLeft="@android:drawable/ic_delete"
+            android:drawablePadding="6dp"
+            android:gravity="left|center"
+            android:padding="5dp"
+            android:text="@string/delete_notification"
+            android:textColor="#000"
+            android:textStyle="bold" />
 
-</LinearLayout>
+        <Button
+            android:id="@+id/sharebtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@android:drawable/btn_default"
+            android:drawableLeft="@android:drawable/ic_menu_share"
+            android:drawablePadding="6dp"
+            android:gravity="left|center"
+            android:padding="5dp"
+            android:text="@string/share"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/openbtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@android:drawable/btn_default"
+            android:drawableLeft="@android:drawable/ic_menu_gallery"
+            android:drawablePadding="6dp"
+            android:gravity="left|center"
+            android:padding="5dp"
+            android:text="@string/daily_update"
+            android:textColor="#000"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</FrameLayout>

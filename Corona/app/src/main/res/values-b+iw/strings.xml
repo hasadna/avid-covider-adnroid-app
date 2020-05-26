@@ -8,6 +8,9 @@
     <string name="delete_notification">ביטול התראה</string>
     <string name="notification_message1">הגיע הזמן</string>
     <string name="notification_message2">לעידכון קורונה יומי</string>
-    <string name="share">שטף האפליקציה</string>
+    <string name="share">שתף האפליקציה</string>
+    <string name="daily_update">דיווח יומי</string>
+    <string name="daily_alart_set_to">תזכורת יומית נקבע ל:</string>
+    <string name="change">האם לשנות?</string>
 
 </resources>

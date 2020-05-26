@@ -9,5 +9,8 @@
     <string name="notification_message1">Time for</string>
     <string name="notification_message2">daily corona update</string>
     <string name="share">share</string>
+    <string name="daily_update">daily update</string>
+    <string name="daily_alart_set_to">daily alart set to:</string>
+    <string name="change">do you want to change?</string>
 
 </resources>
